@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 
 // const pass = ArabianHorse79
 
-const serviceAccount = require("./ahmed-burj-al-arab-firebase-adminsdk-lvgcq-e975d602b7.json");
+const serviceAccount = require("./configs/ahmed-burj-al-arab-firebase-adminsdk-lvgcq-e975d602b7.json");
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount)
